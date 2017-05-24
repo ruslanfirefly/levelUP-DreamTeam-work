@@ -1,0 +1,55 @@
+.text-hoes{
+    text-align: center;
+}
+
+.logo{
+    width: 100%;
+    height: 70px;
+    background-color: coral;
+    display: flex;
+
+}
+.logo-img{
+    flex: 3;
+}
+.logo-form{
+    flex: 1;
+    background-color: antiquewhite;
+}
+.logo-form label{
+    padding: 5px;
+}
+.slider{
+    width: 100%;
+    height: 200px;
+    background-color: chartreuse;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: burlywood;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+}
+.rside{
+    flex: 1;
+    background-color: blueviolet;
+    order: 1;
+}
+.content{
+    flex: 1;
+    background-color: cornflowerblue;
+    order: 0;
+}
+.content2{
+    flex: 1;
+    background-color: darkkhaki;
+    order: 0;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: blanchedalmond;
+}
